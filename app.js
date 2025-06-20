@@ -13,7 +13,7 @@ const port = process.env.PORT ;
 
 // ✅ CORS should be applied to Express, not ApolloServer
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://backend-vdqv.onrender.com",
   credentials: true,
 }));
 
